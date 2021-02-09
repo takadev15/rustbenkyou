@@ -14,6 +14,5 @@ fn main() {
     let q = a + x;
     println!("{ }", q);
 
-    let c;
-    c = 9
+    //this is second comment
 }
