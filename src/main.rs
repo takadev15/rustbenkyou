@@ -14,5 +14,8 @@ fn main() {
     let q = a + x;
     println!("{ }", q);
 
+    let z: i64 = 10;
+    println!("{ }", z );
+
     //this is second comment
 }
