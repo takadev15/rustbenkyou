@@ -1,0 +1,16 @@
+# vim: set fenc=utf-8 ft=dosini:
+
+[project-build]
+command=cargo build
+cwd=<root>
+output=quickfix
+[project-run]
+command=cargo run
+cwd=<root>
+output=terminal
+[project-test]
+command=cargo test
+cwd=<root>
+output=quickfix
+
+

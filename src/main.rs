@@ -1,3 +1,9 @@
+
+#[derive(Debug)]
+struct Test {
+    ID: u32,
+    Name: String,
+}
 fn main() {
     let x = 10;
     println!("{ }", x);
@@ -17,5 +23,13 @@ fn main() {
     let z: i64 = 10;
     println!("{ }", z );
 
+    let p: i64 = 10;
+    println!("{ }", p);
+
+    let a = 13u8;
+    println!("{  }", a);
+
     //this is second comment
+
 }
+
